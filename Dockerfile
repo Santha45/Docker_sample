@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Make the container's port 3000 available to the outside world
-EXPOSE 3000
+EXPOSE 3052
 
 # Run the app
 CMD ["npm", "start"]
